@@ -171,23 +171,6 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
 
 ---
 
-### 📊 Engineering Metrics Dashboard
-
-<div align="center">
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=MonzurMorshed&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" width="49%" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MonzurMorshed&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
-  </p>
-  <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=MonzurMorshed&theme=tokyonight&hide_border=true" width="98%" />
-  </p>
-  <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=MonzurMorshed&theme=tokyo-night&hide_border=true" width="98%" />
-  </p>
-</div>
-
----
-
 <div align="center">
   <sub>Engineered for reliability, maintainability, and scale. Check out more projects on my <a href="https://monzur-ten.vercel.app/" target="_blank">Portfolio</a>.</sub>
 </div>
