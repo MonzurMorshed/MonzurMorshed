@@ -1,47 +1,38 @@
-name: Generate Metrics
+name: Generate Split Metrics Cards
 
 on:
-  # Schedule daily updates at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-  # Allow manual runs from the Actions tab
   workflow_dispatch:
-  # Run on push to main branch
   push:
     branches: ["main"]
 
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Generate Detailed Engineering Metrics
+      # 1. Base Stats Card (Header, Total Commits, PRs, Stars, Issues)
+      - name: Base & General Overview Card
         uses: lowlighter/metrics@latest
         with:
-          # Your GitHub Personal Access Token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Profile target
           user: MonzurMorshed
-          template: classic
+          filename: metrics/metrics-base.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Dhaka
-
-          # Target output file path in the repository
-          output_action: commit
           committer_branch: main
-          committer_message: "chore: update metrics [skip ci]"
-          filename: github-metrics.svg
+          committer_message: "chore: update base metrics [skip ci]"
 
-          # Include private contributions
-          config_order: base.header, isocalendar, languages, habits
-          
-          # 1. Full-year activity calendar (includes private commits)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-          # 2. Languages breakdown (calculated across private & public repos)
+      # 2. Languages Distribution Card (Private + Public)
+      - name: Top Languages Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: MonzurMorshed
+          filename: metrics/metrics-languages.svg
+          base: ""
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -49,14 +40,40 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          config_timezone: Asia/Dhaka
+          committer_branch: main
+          committer_message: "chore: update language metrics [skip ci]"
 
-          # 3. Coding habits (commit hours and active days)
+      # 3. Coding Habits & Peak Hours Card
+      - name: Coding Habits & Time Analysis Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: MonzurMorshed
+          filename: metrics/metrics-habits.svg
+          base: ""
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_trim: yes
+          config_timezone: Asia/Dhaka
+          committer_branch: main
+          committer_message: "chore: update habits metrics [skip ci]"
+
+      # 4. Isometric Contribution Calendar Card (Full-Year)
+      - name: IsoCalendar Activity Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: MonzurMorshed
+          filename: metrics/metrics-isocalendar.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Dhaka
+          committer_branch: main
+          committer_message: "chore: update isocalendar metrics [skip ci]"
