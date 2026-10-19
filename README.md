@@ -142,7 +142,7 @@ These mission-critical public-sector platforms form the core of nationwide land 
         <img src="https://img.shields.io/badge/Security-Government_Grade-orange?style=flat-square" alt="Security" />
       </p>
       <ul>
-        <li><strong>Role:</strong> Workflow Engine & Security Layer Engineering</li>
+        <li><strong>Role:</strong> Workflow Engine </li>
         <li><strong>Architecture:</strong> Multi-tiered governance workflow coordinating commercial/agricultural lease allotments, digital verification of applicant credentials, and multi-tier departmental approvals.</li>
         <li><strong>Impact:</strong> Replaced administrative paper bottlenecks with automated status transitions, SLA monitoring, and immutable tamper-proof digital audit trails.</li>
       </ul>
