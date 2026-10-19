@@ -80,6 +80,80 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
 
 ---
 
+---
+
+### 🏛️ Flagship Office & E-Governance Projects
+
+These mission-critical public-sector platforms form the core of nationwide land administration and digital citizen services in Bangladesh:
+
+<table>
+  <!-- Row 1: Land Service Gateway & LD Tax -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Land Service Gateway & Citizen SSO</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PHP-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+        <img src="https://img.shields.io/badge/OAuth2-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+        <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </p>
+      <ul>
+        <li><strong>Role:</strong> Backend Architecture & Core Integration</li>
+        <li><strong>Architecture:</strong> Centralized identity provider (IdP) delivering Single Sign-On (SSO) and RBAC security for citizens and administrative field officials nationwide.</li>
+        <li><strong>Impact:</strong> Hardened authentication token lifecycles to resist credential stuffing and replay threats across millions of active citizen sessions.</li>
+      </ul>
+      <p align="center">
+        <a href="https://land.gov.bd" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_Visit_Portal-006A4E?style=for-the-badge" alt="Visit land.gov.bd" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Online Land Development Tax System</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PHP-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+        <img src="https://img.shields.io/badge/MySQL-Optimization-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/FinTech-APIs-28A745?style=flat-square&logo=cashapp&logoColor=white" alt="Payment APIs" />
+        <img src="https://img.shields.io/badge/Docker-Deploy-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+      <ul>
+        <li><strong>Role:</strong> Ledger Engine & Payment Gateway Architect</li>
+        <li><strong>Architecture:</strong> High-throughput computational tax engine handling nationwide tax calculation, automatic exemption evaluations, and real-time revenue collection.</li>
+        <li><strong>Impact:</strong> Enforced strict transactional idempotency and database indexing to handle massive peak revenue collection without table-locking bottlenecks.</li>
+      </ul>
+      <p align="center">
+        <a href="https://ldtax.gov.bd" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_Visit_Portal-006A4E?style=for-the-badge" alt="Visit ldtax.gov.bd" />
+        </a>
+      </p>
+    </td>
+  </tr>
+
+  <!-- Row 2: LSMS -->
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">Lease Settlement & Management System (LSMS) - (Vested Property)</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Architecture-State_Machine-blue?style=flat-square" alt="State Machine" />
+        <img src="https://img.shields.io/badge/Audit-Immutable_Logs-purple?style=flat-square" alt="Audit Logs" />
+        <img src="https://img.shields.io/badge/Security-Government_Grade-orange?style=flat-square" alt="Security" />
+      </p>
+      <ul>
+        <li><strong>Role:</strong> Workflow Engine & Security Layer Engineering</li>
+        <li><strong>Architecture:</strong> Multi-tiered governance workflow coordinating commercial/agricultural lease allotments, digital verification of applicant credentials, and multi-tier departmental approvals.</li>
+        <li><strong>Impact:</strong> Replaced administrative paper bottlenecks with automated status transitions, SLA monitoring, and immutable tamper-proof digital audit trails.</li>
+      </ul>
+      <p align="center">
+        <a href="https://lsms.gov.bd" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_Visit_Portal-006A4E?style=for-the-badge" alt="Visit lsms.gov.bd" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### 🚀 Featured Engineering Projects & Live Demos
 
 <table>
