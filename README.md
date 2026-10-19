@@ -87,9 +87,6 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Personal Portfolio & Dev Space</h3>
-      <a href="https://monzur-ten.vercel.app/" target="_blank">
-        <img src="./assets/portfolio-preview.png" alt="Portfolio Preview" width="100%" style="border-radius: 8px;" />
-      </a>
       <p align="center">
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
@@ -107,9 +104,6 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
     </td>
     <td width="50%" valign="top">
       <h3 align="center">KiduraBD - E-Commerce Platform</h3>
-      <a href="https://kidurabd.com" target="_blank">
-        <img src="./assets/kidura-preview.png" alt="KiduraBD Preview" width="100%" style="border-radius: 8px;" />
-      </a>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
@@ -131,9 +125,6 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">PickYourDeal - Affiliate Commerce</h3>
-      <a href="https://pickyourdeal.store" target="_blank">
-        <img src="./assets/pickyourdeal-preview.png" alt="PickYourDeal Preview" width="100%" style="border-radius: 8px;" />
-      </a>
       <p align="center">
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
@@ -151,9 +142,6 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
     </td>
     <td width="50%" valign="top">
       <h3 align="center">NestJS Scalable REST API Starter</h3>
-      <a href="https://github.com/MonzurMorshed" target="_blank">
-        <img src="./assets/nestjs-api-preview.png" alt="NestJS Architecture Preview" width="100%" style="border-radius: 8px;" />
-      </a>
       <p align="center">
         <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
