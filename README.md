@@ -111,15 +111,18 @@ These mission-critical public-sector platforms form the core of nationwide land 
     <td width="50%" valign="top">
       <h3 align="center">Online Land Development Tax System</h3>
       <p align="center">
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/API_Manager-Gateway-blue?style=flat-square" alt="API Manager" />
         <img src="https://img.shields.io/badge/PHP-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-        <img src="https://img.shields.io/badge/MySQL-Optimization-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-        <img src="https://img.shields.io/badge/FinTech-APIs-28A745?style=flat-square&logo=cashapp&logoColor=white" alt="Payment APIs" />
-        <img src="https://img.shields.io/badge/Docker-Deploy-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/FinTech-Reconciliation-28A745?style=flat-square&logo=cashapp&logoColor=white" alt="FinTech" />
       </p>
       <ul>
-        <li><strong>Role:</strong> Ledger Engine & Payment Gateway Architect</li>
-        <li><strong>Architecture:</strong> High-throughput computational tax engine handling nationwide tax calculation, automatic exemption evaluations, and real-time revenue collection.</li>
-        <li><strong>Impact:</strong> Enforced strict transactional idempotency and database indexing to handle massive peak revenue collection without table-locking bottlenecks.</li>
+        <li><strong>Role:</strong> Full-Stack Developer</li>
+        <li><strong>Frontend & Integration:</strong> Engineered client-facing modules using Next.js, interfacing with an API Manager to communicate with backend services.</li>
+        <li><strong>Citizen & Organization Services:</strong> Built the end-to-end workflows for land holding tracking, Khotian record applications, and payment processing.</li>
+        <li><strong>Automated Dakhila Generation:</strong> Implemented real-time digital tax receipt (Dakhila) generation immediately upon successful tax payments for citizens and corporate organizations.</li>
+        <li><strong>Ledger & Self-Reconciliation:</strong> Developed transaction audit logging and the automated self-reconciliation engine to resolve payment gateway mismatches directly into the system ledger.</li>
       </ul>
       <p align="center">
         <a href="https://ldtax.gov.bd" target="_blank">
