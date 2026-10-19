@@ -83,6 +83,7 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
 ### 🚀 Featured Engineering Projects & Live Demos
 
 <table>
+<!-- Row 1: Portfolio & KiduraBD -->
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Personal Portfolio & Dev Space</h3>
@@ -125,6 +126,8 @@ Senior Full-Stack Software Engineer and Backend Architect with 6+ years of engin
       </p>
     </td>
   </tr>
+
+  <!-- Row 2: PickYourDeal & NestJS -->
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">PickYourDeal - Affiliate Commerce</h3>
